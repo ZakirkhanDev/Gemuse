@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gemuse Doner Kebab - Food Truck</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+<header>
+  <div class="logo">
+    <h1>Gemuse Doner Kebab</h1>
+  </div>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li> 
+      <li><a href="#menu">Our Menu</a></li>
+      <li><a href="#order">Order Now</a></li>
+      <li><a href="#locations">Locations</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h2>The Best Shawarma on Westheimer</h2>
+      <button onclick="scrollToSection('menu')">Order Now</button>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu">
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1604908177526-5dba40b6dc54?auto=format&fit=crop&w=800&q=80" alt="Veggie Doner">
+        <h3>Veggie Doner</h3>
+        <p>Fresh vegetables with our signature doner sauce in a warm pita.</p>
+        <button class="order-btn">Order</button>
+      </div>
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1604908177526-5dba40b6dc54?auto=format&fit=crop&w=800&q=80" alt="Falafel Doner">
+        <h3>Falafel Doner</h3>
+        <p>Crispy falafel wrapped with fresh veggies and sauces.</p>
+        <button class="order-btn">Order</button>
+      </div>
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=800&q=80" alt="Hummus Wrap">
+        <h3>Hummus Wrap</h3>
+        <p>Creamy hummus with grilled veggies and fresh herbs.</p>
+        <button class="order-btn">Order</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews Section -->
+  <section id="reviews">
+    <h2>Customer Reviews</h2>
+    <div class="reviews">
+      <div class="review-card">
+        <p>"Best vegan doner I’ve ever had! Highly recommend."</p>
+        <h4>- Sarah</h4>
+      </div>
+      <div class="review-card">
+        <p>"Fast service and delicious food! My go-to food truck."</p>
+        <h4>- Alex</h4>
+      </div>
+      <div class="review-card">
+        <p>"Amazing flavors and friendly staff. Love it!"</p>
+        <h4>- Jamie</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact & Order</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message / Order Details" rows="5" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <button id="order-now" onclick="scrollToSection('menu')">Order Now</button>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Gemuse Doner Kebab Food Truck. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
