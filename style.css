@@ -56,7 +56,7 @@ header {
 
 /* Hero Section */
 .hero {
-  background: url('./photos/arabi.jpg') center/cover no-repeat;
+  background: url('photos/arabi.jpg') center/cover no-repeat;
   height: 80vh;
   display: flex;
   align-items: center;
